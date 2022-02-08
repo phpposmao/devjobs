@@ -8,7 +8,7 @@ class DeleteCompaniesController {
 
     if (!company) {
       return response.status(400).json({
-        errors: ['Usuário não existe'],
+        errors: ['Empresa não existe'],
       });
     }
 
